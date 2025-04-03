@@ -1,20 +1,19 @@
 
 import Navbar from "../components/Navbar";
-import Hero from "../components/Hero";
-import CuisineSection from "../components/CuisineSection";
 import ChefSection from "../components/ChefSection";
 import Footer from "../components/Footer";
 
-const Index = () => {
+const Chefs = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <Hero />
-      <CuisineSection />
+      <div className="bg-homeplate-orange py-12">
+        <h1 className="text-center text-4xl font-bold">Our Chefs</h1>
+      </div>
       <ChefSection />
       <Footer />
     </div>
   );
 };
 
-export default Index;
+export default Chefs;
